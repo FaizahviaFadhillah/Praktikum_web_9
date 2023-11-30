@@ -17,73 +17,69 @@
 
 Script :
 
-    ```html
-    <h1>Modularisasi</h1>
-        <nav>
-            <a href="home.php">Home</a>
-            <a href="about.php">Tentang</a>
-            <a href="kontak.php">Kontak</a>
-            <a href="index.php">Data Barang</a>
-        </nav>
-    ```
+```html
+<h1>Modularisasi</h1>
+    <nav>
+        <a href="home.php">Home</a>
+        <a href="about.php">Tentang</a>
+        <a href="kontak.php">Kontak</a>
+        <a href="index.php">Data Barang</a>
+    </nav>
+```
 
 
 3. Buat file baru dengan nama `footer.php`
 
 Script :
 
-    ```html
-        <footer>
-            <p>&copy; 2021, Informatika, Universitas Pelita Bangsa</p>
-        </footer>
-    ```
+```html
+<footer>
+    <p>&copy; 2021, Informatika, Universitas Pelita Bangsa</p>
+</footer>
+```
 
 
 4. Buat file baru dengan nama `home.php`
 
 Script :
 
-    ```php
-        <?php require('header.php'); ?>
-
-        <div class="content">
-        Modul Praktikum Pemrograman Web
-        Agung Nugroho (agung@pelitabangsa.ac.id) 78
-        Universitas Pelita Bangsa, Bekasi
-            <h2>Ini Halaman Home</h2>
-            <p>Ini adalah bagian content dari halaman.</p>
-        </div>
-
-        <?php require('footer.php'); ?
-    ```
+ ```php
+<?php require('header.php'); ?>
+    <div class="content">
+    Modul Praktikum Pemrograman Web Agung Nugroho (agung@pelitabangsa.ac.id) 78 Universitas Pelita Bangsa, Bekasi
+        <h2>Ini Halaman Home</h2>
+        <p>Ini adalah bagian content dari halaman.</p>
+    </div>
+<?php require('footer.php'); ?
+```
 
 
 5. Buat file baru dengan nama `about.php`
 
 Script :
 
-    ```php
-    <?php require('header.php'); ?>
+```php
+<?php require('header.php'); ?>
     <div class="content">
         <h2>Ini Halaman About</h2>
         <p>Ini adalah bagian content dari halaman.</p>
     </div>
-    <?php require('footer.php'); ?>
-    ```
+<?php require('footer.php'); ?>
+```
 
 
 6. Buat file baru dengan nama `kontak.php`
 
 Script :
 
-    ```php
-    <?php require('header.php'); ?>
+ ```php
+<?php require('header.php'); ?>
     <div class="content">
         <h2>Ini Halaman Kontak</h2>
         <p>Ini adalah bagian content dari halaman.</p>
     </div>
-    <?php require('footer.php'); ?>
-    ```
+<?php require('footer.php'); ?>
+```
 
 
 # Tugas
@@ -92,8 +88,8 @@ Script :
 
 Script :
 
-    ```php
-    <?php
+```php
+<?php
     include("koneksi.php");
 
     // query untuk menampilkan data
@@ -118,29 +114,29 @@ Script :
                 <a href="about.php">About</a>
                 <a href="kontak.php">Contact</a>
             </nav>
-    ```
+```    
 
 
 2. footer.php
 
 Script :
 
-    ```html
-                <footer>
+```html
+            <footer>
                 <p>Copyright &copy; Faizah Via Fadhillah Website 2023</p>
             </footer>
         </div>
     </body>
-    </html>
-    ```
+</html>
+```
 
 
 3. index.php
 
 Script :
 
-    ```php
-        <div class="container">
+ ```php
+    <div class="container">
         <?php require('header.php'); ?>
         <h2>Data Barang</h2>
         <a class="tambah" href="tambah.php">Tambah Barang</a>
@@ -180,7 +176,7 @@ Script :
         <br>
         <?php require('footer.php'); ?>
     </div>
-    ```
+```   
 
 Output :
 
@@ -191,7 +187,7 @@ Output :
 
 Script :
 
-    ```php
+```php
     <!DOCTYPE html>
     <html lang="en">
 
@@ -225,7 +221,7 @@ Script :
         </div>
     </body>
     </html>
-    ```
+```   
 
 Output :
 
@@ -236,7 +232,7 @@ Output :
 
 Script :
 
-    ```php
+ ```php
     <!DOCTYPE html>
     <html lang="en">
 
@@ -272,7 +268,7 @@ Script :
     </body>
 
     </html>
-    ```
+```
 
 Output :
 
